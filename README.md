@@ -44,8 +44,14 @@ The following resources also have additional methods:
 > `lotr.movie.getQuotes(<MOVIE_ID>)`
 
 # Query Parameters
-According to the [LOTR API](https://the-one-api.dev/documentation),you can sort, paginate and filter the data. You can supply the sdk with a second parameter with an object that looks liek this 
+According to the [LOTR API](https://the-one-api.dev/documentation),you can sort, paginate and filter the data. You can supply the sdk with a optional parameter with an object that looks like this
 ```
+lotr.movie.getQuotes(<MOVIE_ID>, <QUERYPARAMS>)
+lotr.movie.getAll(<QUERYPARAMS>)
+```
+
+```
+QUERYPARAM structure
 {
     limit:1,
     page:1,
@@ -95,3 +101,4 @@ According to the [LOTR API](https://the-one-api.dev/documentation),you can sort,
 lotr.book.getAll({
     limit:11,
 })
+
