@@ -1,1 +1,1 @@
-export const Greeter = (name: string) => `Hello ${name}`;
+exports.LotR = require('./lotr');
