@@ -1,1 +1,2 @@
-exports.LotR = require('./lotr');
+import LotR from "./lotr"
+export { LotR }

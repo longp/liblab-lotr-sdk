@@ -14,6 +14,7 @@ export default class LotR {
     quote: QuoteService;
 
     constructor(private apiKey?: string) {
+        // tslint:disable-next-line:no-console
         if(!apiKey) console.warn('Some Endpoints maybe unavailable with no api key')
         this.apiClient = new ApiClient(apiKey)
         this.book = new BookService(this.apiClient)

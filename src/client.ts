@@ -17,12 +17,11 @@ class ApiClient {
       throw error;
     }
   }
-
   // @todo later
-  async post() {}
-  async delete() {}
-  async put() {}
-  async patch() {}
+  // async post() {}
+  // async delete() {}
+  // async put() {}
+  // async patch() {}
 }
 
 export default ApiClient;

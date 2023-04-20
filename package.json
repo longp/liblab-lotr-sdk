@@ -1,6 +1,6 @@
 {
-  "name": "longphan-liblab-lotr-sdk",
-  "version": "1.0.0",
+  "name": "longphan-lotr-sdk",
+  "version": "1.0.6",
   "description": "take home test sdk project for liblab by longphan",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

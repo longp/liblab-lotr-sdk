@@ -23,7 +23,7 @@ export default abstract class RootService {
     }
 
     buildQuery(query: Query): string {
-        let qs: string[] = []
+        const qs: string[] = []
 
         if (query.limit)
             qs.push(`limit=${query.limit}`)
@@ -42,7 +42,7 @@ export default abstract class RootService {
     }
 
     buildFilter(filter: Filter): string {
-        let qs: string[] = []
+        const qs: string[] = []
         if (filter.match) {
             qs.push(`${filter.match.field}=${filter.match.value}`)
         }
