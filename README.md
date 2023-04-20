@@ -45,7 +45,7 @@ The following resources also have additional methods:
 
 # Query Parameters
 According to the [LOTR API](https://the-one-api.dev/documentation),you can sort, paginate and filter the data. You can supply the sdk with a second parameter with an object that looks liek this 
-
+```
 {
     limit:1,
     page:1,
@@ -91,6 +91,7 @@ According to the [LOTR API](https://the-one-api.dev/documentation),you can sort,
 }
 ```
 /* EXAMPLE */
+```
 lotr.book.getAll({
     limit:11,
 })
